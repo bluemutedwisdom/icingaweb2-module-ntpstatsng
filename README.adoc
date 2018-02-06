@@ -1,0 +1,12 @@
+= Icinga Web 2 NTPstats-NG module
+:linkattrs:
+
+A Icinga Web 2 interface to extensive NTP statistc monitoring
+
+== Thanks
+
+* link:https://github.com/Thomas-Gelf/icingaweb2-module-training[icingaweb2-module-training, window="_blank"]
+* link:https://github.com/Icinga/icingaweb2-module-director[icingaweb2-module-director, window="_blank"]
+* link:https://github.com/Icinga/icingaweb2-module-businessprocess[icingaweb2-module-businessprocess, window="_blank"]
+
+// End of README.adoc
