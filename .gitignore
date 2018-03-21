@@ -1,5 +1,5 @@
 # icingaweb2-module-ntpstatsng/.gitignore
 
-/t/
+/_t/
 
 # EOF
