@@ -1,5 +1,6 @@
 # icingaweb2-module-ntpstatsng/.gitignore
 
-/_t/
+# test scripts which are used by the module developers, but not by people who are only using the module
+/xt/
 
 # EOF

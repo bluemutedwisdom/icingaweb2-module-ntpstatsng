@@ -1,5 +1,5 @@
 Name: NTPstats-NG
 Version: wols/master
-Depends: monitoring>=2.4.2
+Depends: director (>=1.4.3), monitoring (>=2.5.3)
 Description: NTPstats-NG
  A Icinga Web 2 interface to extensive NTP statistc monitoring

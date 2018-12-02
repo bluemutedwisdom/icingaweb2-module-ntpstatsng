@@ -8,9 +8,12 @@ image:https://img.shields.io/github/license/wols/icingaweb2-module-ntpstatsng.sv
 
 == Thanks
 
-* link:https://github.com/Thomas-Gelf/icingaweb2-module-training[icingaweb2-module-training, window="_blank"]
-* link:https://github.com/Icinga/icingaweb2-module-lynxtechnik[icingaweb2-module-lynxtechnik, window="_blank"]
-* link:https://github.com/Icinga/icingaweb2-module-director[icingaweb2-module-director, window="_blank"]
-* link:https://github.com/Icinga/icingaweb2-module-businessprocess[icingaweb2-module-businessprocess, window="_blank"]
+* Tutorial
+** link:https://blog.netways.de/2014/11/27/icinga-web-2-hello-world-modul/[NETWAYS: Hello World Modul, window="_blank"]
+* Icinga Web 2 module
+** link:https://github.com/Thomas-Gelf/icingaweb2-module-training[icingaweb2-module-training, window="_blank"]
+** link:https://github.com/Icinga/icingaweb2-module-lynxtechnik[icingaweb2-module-lynxtechnik, window="_blank"]
+** link:https://github.com/Icinga/icingaweb2-module-director[icingaweb2-module-director, window="_blank"]
+** link:https://github.com/Icinga/icingaweb2-module-businessprocess[icingaweb2-module-businessprocess, window="_blank"]
 
 // End of README.adoc
