@@ -10,6 +10,7 @@ image:https://img.shields.io/github/license/wols/icingaweb2-module-ntpstatsng.sv
 
 * Tutorial
 ** link:https://blog.netways.de/2014/11/27/icinga-web-2-hello-world-modul/[NETWAYS: Hello World Modul, window="_blank"]
+** link:https://blog.netways.de/2015/07/09/icinga-web-2-wohin-denn-so-schnell/[NETWAYS: Wohin denn so schnell?, window="_blank"]
 * Icinga Web 2 module
 ** link:https://github.com/Thomas-Gelf/icingaweb2-module-training[icingaweb2-module-training, window="_blank"]
 ** link:https://github.com/Icinga/icingaweb2-module-lynxtechnik[icingaweb2-module-lynxtechnik, window="_blank"]
