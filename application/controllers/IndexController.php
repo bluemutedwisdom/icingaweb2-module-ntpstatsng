@@ -1,5 +1,7 @@
 <?php
 
+namespace Icinga\Module\Ntpstatsng\Controllers;
+
 use Icinga\Web\Controller\ModuleActionController;
 
 class Ntpstatsng_IndexController extends ModuleActionController
