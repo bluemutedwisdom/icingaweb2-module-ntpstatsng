@@ -2,9 +2,9 @@
 
 namespace Icinga\Module\Ntpstatsng\Controllers;
 
-use Icinga\Web\Controller\ModuleActionController;
+use Icinga\Web\Controller;
 
-class Ntpstatsng_IndexController extends ModuleActionController
+class IndexController extends Controller
 {
     public function indexAction()
     {
