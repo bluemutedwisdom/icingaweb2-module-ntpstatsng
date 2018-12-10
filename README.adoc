@@ -9,11 +9,17 @@ image:https://img.shields.io/github/license/wols/icingaweb2-module-ntpstatsng.sv
 
 == NTPstats-NG
 
+=== NTPstats-NG index view
+
 .NTPstats-NG index
 image::ntpstatsng_index.png[Screenshot ntpstatsng, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/ntpstatsng_index.png"]
 
+=== NTPstats-NG documentation
+
 .NTPstats-NG documentation
 image::ntpstatsng_doc.png[Screenshot ntpstatsng_doc, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/ntpstatsng_doc.png"]
+
+=== System - Module ntpstatsng
 
 .module NTPstats-NG
 image::module_ntpstatsng.png[Screenshot module_ntpstatsng, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/module_ntpstatsng.png"]
