@@ -1,10 +1,22 @@
 = Icinga Web 2 NTPstats-NG module
 :image-captions:
+:imagesdir:      doc/images
 :linkattrs:
 
 A Icinga Web 2 interface to extensive NTP statistc monitoring
 
 image:https://img.shields.io/github/license/wols/icingaweb2-module-ntpstatsng.svg[license, link="LICENSE"]
+
+== NTPstats-NG
+
+.NTPstats-NG index
+image::ntpstatsng_index.png[Screenshot ntpstatsng, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/ntpstatsng_index.png"]
+
+.NTPstats-NG documentation
+image::ntpstatsng_doc.png[Screenshot ntpstatsng_doc, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/ntpstatsng_doc.png"]
+
+.module NTPstats-NG
+image::module_ntpstatsng.png[Screenshot module_ntpstatsng, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/module_ntpstatsng.png"]
 
 == Thanks
 
