@@ -6,6 +6,9 @@
 A Icinga Web 2 interface to extensive NTP statistc monitoring
 
 image:https://img.shields.io/github/license/wols/icingaweb2-module-ntpstatsng.svg[license, link="LICENSE"]
+image:https://img.shields.io/github/tag/wols/icingaweb2-module-ntpstatsng.svg[tag, link="https://github.com/wols/icingaweb2-module-ntpstatsng/tags"]
+image:https://img.shields.io/github/issues/wols/icingaweb2-module-ntpstatsng.svg[issues, link="https://github.com/wols/icingaweb2-module-ntpstatsng/issues"]
+image:https://img.shields.io/github/stars/wols/icingaweb2-module-ntpstatsng.svg?style=social&label=Star[star, link="https://github.com/wols/icingaweb2-module-ntpstatsng/stargazers"]
 
 == NTPstats-NG
 
