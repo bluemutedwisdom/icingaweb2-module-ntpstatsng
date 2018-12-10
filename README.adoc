@@ -20,7 +20,7 @@ image::ntpstatsng_index.png[Screenshot ntpstatsng, link="https://raw.githubuserc
 .NTPstats-NG Documentation
 image::ntpstatsng_doc.png[Screenshot ntpstatsng_doc, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/ntpstatsng_doc.png"]
 
-=== System - Module ntpstatsng
+=== Configuration - Module ntpstatsng
 
 .Module ntpstatsng
 image::module_ntpstatsng.png[Screenshot module_ntpstatsng, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/module_ntpstatsng.png"]
