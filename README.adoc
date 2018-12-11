@@ -14,7 +14,7 @@ image:https://img.shields.io/github/tag/wols/icingaweb2-module-ntpstatsng.svg[ta
 image:https://img.shields.io/github/issues/wols/icingaweb2-module-ntpstatsng.svg[issues, link="https://github.com/wols/icingaweb2-module-ntpstatsng/issues"]
 image:https://img.shields.io/github/stars/wols/icingaweb2-module-ntpstatsng.svg?style=social&label=Star[star, link="https://github.com/wols/icingaweb2-module-ntpstatsng/stargazers"]
 
-IMPORTANT: **The module does not have any functionality yet!** First the documentation will be created.
+IMPORTANT: **The module does not have any functionality yet!** First the link:doc/01-About.md[documentation] will be created.
 
 == NTPstats-NG
 
