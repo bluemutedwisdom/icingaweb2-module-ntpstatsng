@@ -2,7 +2,19 @@
 
 ## Why should you monitor NTP peers?
 
-Coming soon...
+> Monitoring without **exact timestamp** is worthless.
+>
+> [WOLS](https://github.com/wols)
+
+Let's take an example: [Icinga2 - Distributed Monitoring with Master, Satellites, and Clients](https://icinga.com/docs/icinga2/latest/doc/images/distributed-monitoring/icinga2_distributed_roles.png), 2018-12-10T21:15:00
+
+![icinga2_distributed_roles](images/icinga2_distributed_roles.png)
+
+TO BE CONTINUED...
+
+### Sources
+
+* [Arnold, Doug: The virtues of clock watching: Why it's important to monitor your timing network](https://blog.meinbergglobal.com/2018/05/10/the-virtues-of-clock-watching-why-its-important-to-monitor-your-timing-network/), 2018-12-10T21:15:00
 
 ## How should you monitor NTP peers?
 
