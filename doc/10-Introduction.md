@@ -30,7 +30,7 @@ Do you trust a self-report?
 
 ### Network measurement
 
-> The measurement mechanism could be NetSync Monitor, created by [MEINBERG Funkuhren GmbH &amp; Co. KG](https://www.meinbergglobal.com/english/news/optimize-network-synchronization-with-the-netsync-monitor.htm).
+> The measurement mechanism could be [NetSync Monitor](https://www.meinbergglobal.com/english/news/optimize-network-synchronization-with-the-netsync-monitor.htm), created by MEINBERG Funkuhren GmbH &amp; Co. KG.
 
 ### Measurement with a GNSS enabled clock
 
