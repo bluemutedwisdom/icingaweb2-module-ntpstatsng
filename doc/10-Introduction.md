@@ -46,13 +46,17 @@ Do you trust a self-report?
 
 [Read more...](11-Peers.md#module_ntpstatsng_peers)
 
+### Zones
+
+[Read more...](12-Zones.md#module_ntpstatsng_zones)
+
 ### Probes
 
-[Read more...](12-Probes.md#module_ntpstatsng_probes)
+[Read more...](13-Probes.md#module_ntpstatsng_probes)
 
 ### Controllers
 
-[Read more...](13-Controllers.md#module_ntpstatsng_controllers)
+[Read more...](14-Controllers.md#module_ntpstatsng_controllers)
 
 ----
 

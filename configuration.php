@@ -13,23 +13,30 @@ $section->add('Peers', array(
     'priority'    => 91,
 ));
 
+$section->add('Zones', array(
+    'description' => $this->translate('List peer zones'),
+    'icon'        => 'cloud',
+    'url'         => 'ntpstatsng/list/zones',
+    'priority'    => 92,
+));
+
 $section->add('Probes', array(
     'description' => $this->translate('List monitor probes'),
     'icon'        => 'eye',
     'url'         => 'ntpstatsng/list/probes',
-    'priority'    => 92,
+    'priority'    => 93,
 ));
 
 $section->add('Controllers', array(
     'description' => $this->translate('List probe controllers'),
     'icon'        => 'sitemap',
     'url'         => 'ntpstatsng/list/controllers',
-    'priority'    => 93,
+    'priority'    => 94,
 ));
 
 $section->add('Documentation', array(
     'description' => $this->translate('Module documentation'),
     'icon'        => 'doc-text',
     'url'         => 'doc/module/toc?moduleName=ntpstatsng',
-    'priority'    => 94,
+    'priority'    => 95,
 ));
