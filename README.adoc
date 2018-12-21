@@ -21,6 +21,26 @@ IMPORTANT: **The module does not have any functionality yet!** First the link:do
 .NTPstats-NG
 image::ntpstatsng_index.png[Screenshot ntpstatsng, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/ntpstatsng_index.png"]
 
+=== NTPstats-NG Peers
+
+.NTPstats-NG link:doc/11-Peers.md[Peers]
+image::ntpstatsng_peers.png[Screenshot ntpstatsng_peers, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/ntpstatsng_peers.png"]
+
+=== NTPstats-NG Zones
+
+.NTPstats-NG link:doc/12-Zones.md[Zones]
+image::ntpstatsng_zones.png[Screenshot ntpstatsng_zones, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/ntpstatsng_zones.png"]
+
+=== NTPstats-NG Probes
+
+.NTPstats-NG link:doc/13-Probes.md[Probes]
+image::ntpstatsng_probes.png[Screenshot ntpstatsng_probes, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/ntpstatsng_probes.png"]
+
+=== NTPstats-NG Controllers
+
+.NTPstats-NG link:doc/14-Controllers.md[Controllers]
+image::ntpstatsng_controllers.png[Screenshot ntpstatsng_controllers, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/ntpstatsng_controllers.png"]
+
 === NTPstats-NG Documentation
 
 .NTPstats-NG link:doc/01-About.md[Documentation]
