@@ -3,9 +3,10 @@
 
 namespace Icinga\Module\Ntpstatsng\Controllers;
 
-use Icinga\Module\Ntpstatsng\Controller;
 use Icinga\Web\Url;
 use Icinga\Web\Widget\Tabs;
+use Icinga\Module\Ntpstatsng\Data\Db\Demo;
+use Icinga\Module\Ntpstatsng\Controller;
 
 class ListController extends Controller
 {
@@ -19,6 +20,22 @@ class ListController extends Controller
     }
 
     /**
+     * List controllers
+     */
+    public function controllersAction()
+    {
+        $this->addTitleTab(
+            'controllers',
+            $this->translate('Controllers'),
+            $this->translate('List probe controllers')
+        );
+
+        $query = Demo::selectControllers();
+
+        $this->view->ntpstatsng_controllers = $query->fetchAll();
+    }
+
+    /**
      * List peers
      */
     public function peersAction()
@@ -28,6 +45,10 @@ class ListController extends Controller
             $this->translate('Peers'),
             $this->translate('List NTP peers')
         );
+
+        $query = Demo::selectPeers();
+
+        $this->view->ntpstatsng_peers = $query->fetchAll();
     }
 
     /**
@@ -40,18 +61,26 @@ class ListController extends Controller
             $this->translate('Probes'),
             $this->translate('List monitor probes')
         );
+
+        $query = Demo::selectProbes();
+
+        $this->view->ntpstatsng_probes = $query->fetchAll();
     }
 
     /**
-     * List controllers
+     * List zones
      */
-    public function controllersAction()
+    public function zonesAction()
     {
         $this->addTitleTab(
-            'controllers',
-            $this->translate('Controllers'),
-            $this->translate('List probe controllers')
+            'zones',
+            $this->translate('Zones'),
+            $this->translate('List peer zones')
         );
+
+        $query = Demo::selectZones();
+
+        $this->view->ntpstatsng_zones = $query->fetchAll();
     }
 
     /**

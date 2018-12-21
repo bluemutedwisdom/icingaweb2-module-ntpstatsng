@@ -7,6 +7,7 @@ Please read the following chapters for more insights on this module:
 * [Zones](12-Zones.md#module_ntpstatsng_zones)
 * [Probes](13-Probes.md#module_ntpstatsng_probes)
 * [Controllers](14-Controllers.md#module_ntpstatsng_controllers)
+* [Basics](30-Basics.md#module_ntpstatsng_basics)
 
 ----
 

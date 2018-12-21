@@ -5,5 +5,28 @@
 <?php endif ?>
 <div class="content">
 <h1>Controllers</h1>
-No action yet, read the <a href="/icingaweb2/doc/module/ntpstatsng/chapter/module_ntpstatsng_controllers"><i role="img" title="module documentation" aria-label="module documentation" class="icon-doc-text"></i>documentation</a> as long.
+
+
+<?php if (empty($this->ntpstatsng_controllers)): ?>
+<?= $this->translate('No controller found') ?>
+</div>
+<?php return; endif ?>
+<table class="action">
+    <thead>
+        <tr>
+            <th>Controller name</th>
+            <th>Display name</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+<?php foreach ($this->ntpstatsng_controllers as $row): ?>
+        <tr>
+            <td><?= $this->qlink($row->object_name, 'ntpstatsng/list/controllers', array('id' => $row->id)) ?></td>
+            <td><?= $row->display_name ?></td>
+            <td><?= $row->address ?></td>
+        </tr>
+<?php endforeach ?>
+    </tbody>
+</table>
 </div>
