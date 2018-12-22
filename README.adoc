@@ -16,7 +16,7 @@ image:https://img.shields.io/github/stars/wols/icingaweb2-module-ntpstatsng.svg?
 
 IMPORTANT: **The module does not have any functionality yet!** First the link:doc/01-About.md[documentation] (and link:https://github.com/wols/icingaweb2-module-ntpstatsng/milestones[milestones]) will be created.
 
-== NTPstats-NG
+== NTPstats-NG = NTP statistics - Next Generation
 
 .NTPstats-NG
 image::ntpstatsng_index.png[Screenshot ntpstatsng, link="https://raw.githubusercontent.com/wols/icingaweb2-module-ntpstatsng/master/doc/images/ntpstatsng_index.png"]
