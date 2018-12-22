@@ -1,0 +1,47 @@
+<?php if (! $this->compact): ?>
+<div class="controls">
+<?= $this->tabs ?>
+</div>
+<?php endif ?>
+
+<div class="content" data-base-target="_self">
+<h1><?= $this->title ?></h1>
+
+<?php if (empty($this->ntpstatsng_peers)): ?>
+<?= $this->translate('No peer found') ?>
+</div>
+<?php return; endif ?>
+
+<table class="demo_form">
+    <tbody>
+        <tr>
+            <td>Peer name *</td>
+            <td class="form"><?= $this->ntpstatsng_peers[0]->object_name ?></td>
+        </tr>
+        <tr>
+            <td>Display name</td>
+            <td class="form"><?= $this->ntpstatsng_peers[0]->display_name ?></td>
+        </tr>
+        <tr>
+            <td>Peer address *</td>
+            <td class="form"><?= $this->ntpstatsng_peers[0]->address ?></td>
+        </tr>
+        <tr>
+            <td>Peer location</td>
+            <td class="form"><?= $this->ntpstatsng_peers[0]->location ?></td>
+        </tr>
+        <tr>
+            <td>Peer contact</td>
+            <td class="form"><?= $this->ntpstatsng_peers[0]->contact ?></td>
+        </tr>
+        <tr>
+            <td>Zones</td>
+            <td class="form"><i class="icon-down-open"></i></td>
+        </tr>
+        <tr>
+            <td>Probes</td>
+            <td class="form"><i class="icon-down-open"></i></td>
+        </tr>
+    </tbody>
+</table>
+</div>

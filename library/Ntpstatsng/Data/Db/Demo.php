@@ -50,7 +50,6 @@ class Demo
                     'object_name'  => 'peer-ptbtime1',
                     'display_name' => 'ptbtime1.ptb.de',
                     'address'      => '192.53.103.108',
-                    'location'     => 'DE',
                     'location'     => 'PTB, Braunschweig, Niedersachsen, DE',
                     'contact'      => 'ntp-admin@ptb.de',
                 ),
@@ -171,6 +170,16 @@ class Demo
                     'id'           => 8,
                     'object_name'  => 'south-america',
                     'display_name' => 'South America',
+                ),
+                (object) array(
+                    'id'           => 9,
+                    'object_name'  => 'de',
+                    'display_name' => 'Germany',
+                ),
+                (object) array(
+                    'id'           => 9,
+                    'object_name'  => 'us',
+                    'display_name' => 'United States',
                 ),
             )
         );

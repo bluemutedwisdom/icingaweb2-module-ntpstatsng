@@ -1,0 +1,27 @@
+<?php if (! $this->compact): ?>
+<div class="controls">
+<?= $this->tabs ?>
+</div>
+<?php endif ?>
+
+<div class="content" data-base-target="_self">
+<h1><?= $this->title ?></h1>
+
+<?php if (empty($this->ntpstatsng_zones)): ?>
+<?= $this->translate('No zone found') ?>
+</div>
+<?php return; endif ?>
+
+<table class="demo_form">
+    <tbody>
+        <tr>
+            <td>Zone name *</td>
+            <td class="form"><?= $this->ntpstatsng_zones[0]->object_name ?></td>
+        </tr>
+        <tr>
+            <td>Display name</td>
+            <td class="form"><?= $this->ntpstatsng_zones[0]->display_name ?></td>
+        </tr>
+    </tbody>
+</table>
+</div>

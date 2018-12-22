@@ -1,0 +1,35 @@
+<?php if (! $this->compact): ?>
+<div class="controls">
+<?= $this->tabs ?>
+</div>
+<?php endif ?>
+
+<div class="content" data-base-target="_self">
+<h1><?= $this->title ?></h1>
+
+<?php if (empty($this->ntpstatsng_probes)): ?>
+<?= $this->translate('No probe found') ?>
+</div>
+<?php return; endif ?>
+
+<table class="demo_form">
+    <tbody>
+        <tr>
+            <td>Probe name *</td>
+            <td class="form"><?= $this->ntpstatsng_probes[0]->object_name ?></td>
+        </tr>
+        <tr>
+            <td>Display name</td>
+            <td class="form"><?= $this->ntpstatsng_probes[0]->display_name ?></td>
+        </tr>
+        <tr>
+            <td>Probe address *</td>
+            <td class="form"><?= $this->ntpstatsng_probes[0]->address ?></td>
+        </tr>
+        <tr>
+            <td>Controllers</td>
+            <td class="form"><i class="icon-down-open"></i></td>
+        </tr>
+    </tbody>
+</table>
+</div>

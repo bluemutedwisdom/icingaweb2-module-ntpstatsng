@@ -3,14 +3,15 @@
 <?= $this->tabs ?>
 </div>
 <?php endif ?>
-<div class="content">
-<h1>Zones</h1>
 
+<div class="content" data-base-target="_next">
+<h1><?= $this->title ?></h1>
 
 <?php if (empty($this->ntpstatsng_zones)): ?>
 <?= $this->translate('No zone found') ?>
 </div>
 <?php return; endif ?>
+
 <table class="action">
     <thead>
         <tr>
@@ -21,7 +22,7 @@
     <tbody>
 <?php foreach ($this->ntpstatsng_zones as $row): ?>
         <tr>
-            <td><?= $this->qlink($row->object_name, 'ntpstatsng/list/zones', array('id' => $row->id)) ?></td>
+            <td><?= $this->qlink($row->object_name, 'ntpstatsng/modify/zone', array('name' => $row->object_name)) ?></td>
             <td><?= $row->display_name ?></td>
         </tr>
 <?php endforeach ?>

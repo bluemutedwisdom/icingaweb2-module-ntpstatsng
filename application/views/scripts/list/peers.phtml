@@ -3,32 +3,27 @@
 <?= $this->tabs ?>
 </div>
 <?php endif ?>
-<div class="content">
-<h1>Peers</h1>
 
+<div class="content" data-base-target="_next">
+<h1><?= $this->title ?></h1>
 
 <?php if (empty($this->ntpstatsng_peers)): ?>
 <?= $this->translate('No peer found') ?>
 </div>
 <?php return; endif ?>
+
 <table class="action">
     <thead>
         <tr>
-            <th>Peer name</th>
-            <th>Display name</th>
+            <th>Peername</th>
             <th>Address</th>
-            <th>Location</th>
-            <th>Contact</th>
         </tr>
     </thead>
     <tbody>
 <?php foreach ($this->ntpstatsng_peers as $row): ?>
         <tr>
-            <td><?= $this->qlink($row->object_name, 'ntpstatsng/list/peers', array('id' => $row->id)) ?></td>
-            <td><?= $row->display_name ?></td>
+            <td><?= $this->qlink($row->object_name, 'ntpstatsng/modify/peer', array('name' => $row->object_name)) ?></td>
             <td><?= $row->address ?></td>
-            <td><?= $row->location ?></td>
-            <td><?= $row->contact ?></td>
         </tr>
 <?php endforeach ?>
     </tbody>

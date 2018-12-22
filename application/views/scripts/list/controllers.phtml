@@ -3,27 +3,26 @@
 <?= $this->tabs ?>
 </div>
 <?php endif ?>
-<div class="content">
-<h1>Controllers</h1>
 
+<div class="content" data-base-target="_next">
+<h1><?= $this->title ?></h1>
 
 <?php if (empty($this->ntpstatsng_controllers)): ?>
 <?= $this->translate('No controller found') ?>
 </div>
 <?php return; endif ?>
+
 <table class="action">
     <thead>
         <tr>
             <th>Controller name</th>
-            <th>Display name</th>
             <th>Address</th>
         </tr>
     </thead>
     <tbody>
 <?php foreach ($this->ntpstatsng_controllers as $row): ?>
         <tr>
-            <td><?= $this->qlink($row->object_name, 'ntpstatsng/list/controllers', array('id' => $row->id)) ?></td>
-            <td><?= $row->display_name ?></td>
+            <td><?= $this->qlink($row->object_name, 'ntpstatsng/modify/controller', array('name' => $row->object_name)) ?></td>
             <td><?= $row->address ?></td>
         </tr>
 <?php endforeach ?>

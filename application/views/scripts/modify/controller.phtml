@@ -1,0 +1,31 @@
+<?php if (! $this->compact): ?>
+<div class="controls">
+<?= $this->tabs ?>
+</div>
+<?php endif ?>
+
+<div class="content" data-base-target="_self">
+<h1><?= $this->title ?></h1>
+
+<?php if (empty($this->ntpstatsng_controllers)): ?>
+<?= $this->translate('No controller found') ?>
+</div>
+<?php return; endif ?>
+
+<table class="demo_form">
+    <tbody>
+        <tr>
+            <td>Controller name *</td>
+            <td class="form"><?= $this->ntpstatsng_controllers[0]->object_name ?></td>
+        </tr>
+        <tr>
+            <td>Display name</td>
+            <td class="form"><?= $this->ntpstatsng_controllers[0]->display_name ?></td>
+        </tr>
+        <tr>
+            <td>Controller address *</td>
+            <td class="form"><?= $this->ntpstatsng_controllers[0]->address ?></td>
+        </tr>
+    </tbody>
+</table>
+</div>
