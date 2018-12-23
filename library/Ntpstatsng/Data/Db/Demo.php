@@ -111,12 +111,21 @@ class Demo
                     'object_name'  => 'ntpmoni-probe01',
                     'display_name' => 'Monitor Probe 1',
                     'address'      => '192.168.250.1',
+                    'monitor'      => 'syncmon',
                 ),
                 (object) array(
                     'id'           => 2,
                     'object_name'  => 'ntpmoni-probe02',
                     'display_name' => 'Monitor Probe 2',
                     'address'      => '192.168.250.2',
+                    'monitor'      => 'syncmon',
+                ),
+                (object) array(
+                    'id'           => 3,
+                    'object_name'  => 'ntpmoni-1',
+                    'display_name' => 'Monitor 1',
+                    'address'      => '192.168.251.1',
+                    'monitor'      => 'ntpd',
                 ),
             )
         );
@@ -177,9 +186,14 @@ class Demo
                     'display_name' => 'Germany',
                 ),
                 (object) array(
-                    'id'           => 9,
+                    'id'           => 10,
                     'object_name'  => 'us',
                     'display_name' => 'United States',
+                ),
+                (object) array(
+                    'id'           => 11,
+                    'object_name'  => 'my_company',
+                    'display_name' => 'my.company.com',
                 ),
             )
         );

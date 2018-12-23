@@ -3,8 +3,8 @@
 
 namespace Icinga\Module\Ntpstatsng\Controllers;
 
+use Icinga\Web\Widget;
 use Icinga\Web\Url;
-use Icinga\Web\Widget\Tabs;
 use Icinga\Module\Ntpstatsng\Data\Db\Demo;
 use Icinga\Module\Ntpstatsng\Controller;
 

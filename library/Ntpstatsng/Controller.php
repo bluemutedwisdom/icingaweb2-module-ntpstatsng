@@ -10,6 +10,7 @@ use Icinga\Data\Filterable;
 use Icinga\File\Csv;
 use Icinga\Util\Json;
 use Icinga\Web\Controller as IcingaWebController;
+use Icinga\Web\Widget\Tabs;
 use Icinga\Web\Url;
 
 /**
